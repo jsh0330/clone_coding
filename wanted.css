@@ -1,0 +1,26 @@
+
+a{
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+li{
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+}
+
+.MainBar_MainBarNav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Aside_Menu{
+  display: flex;
+}
