@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  /* background-color: aqua; */
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+}
+
+.header_1{
+  /* background-color: blue; */
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+
+main{
+  height: 1160px;
+  /* background-color: aqua; */
+  margin-top: 24px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back_button{
+  display: flex;
+  border: none;
+  height: 100%;
+  background-color: transparent;
+  align-items: center;
+  font-size: 15px;
+  color: grey;
+}
+
+.main_top{
+  width: 70%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.join{
+  width: 400px;
+  /* background-color: brown; */
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  /* justify-content: space-between; */
+}
+
+.title{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.join_input{
+  width: 360px;
+  margin-bottom: 20px;
+}
+
+.join_input > input{
+  width: 328px;
+  height: 48px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid lightgrey;
+}
+
+.join_input > div{
+  margin-bottom: 10px;
+  color: grey;
+  font-size: 15px;
+}
+
+#country{
+  width: 360px;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.input_phone{
+  display: flex;
+  justify-content: space-between;
+}
+
+#phonenumber{
+  width: 196px;
+  padding: 0 16px;
+  height: 48px;
+}
+
+.input_phone > button{
+  border-radius: 10px;
+  padding: 0 15px;
+  height: 50px;
+  width: 120px;
+  border: none;
+  background-color: lightgrey;
+  color: grey;
+}
+
+#certification{
+  background-color: lightgrey;
+  color: grey;
+}
+
+#password1, #password2{
+  margin-bottom: 10px;
+}
+
+.password_rule{
+  font-size: 15px;
+}
+
+.checkboxes{
+  width: 360px;
+  height: 310px;
+  
+}
+
+.checkboxes > hr{
+  margin: 15px 0;
+}
+
+.checkboxes > div{
+  display: flex;
+}
+
+.check_all{
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.check_under{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  height: 300px;
+}
+
+.check{
+  font-size: 15px;
+  width: 360px;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+
+.check_sms{
+  font-size: 15px;
+  width: 360px;
+  color: grey;
+}
+
+.sds{
+  margin-left: 36px;
+}
+
+.sms{
+  margin-top: 10px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.sms > div{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.sms_check{
+  margin-right: 5px;
+  cursor: pointer;
+  color: grey;
+}
+
+.join_button{
+  margin-top: 20px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: grey;
+  background-color: lightgrey;
+}
+
+input[type='text']:focus {
+  border-color: blue;
+  outline: none;
+}
+
+input:focus {
+  border-color: blue;
+  outline: none;
+}
+
+.email_check{
+  position: relative;
+}
+
+.email_check > button{
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  border: none;
+  background-color: transparent;
+  color: lightgrey;
+}
+
+.cancel{
+  cursor: pointer;
+}
+
+.password_error{
+  color: red;
+  margin-bottom: 5px;
+}

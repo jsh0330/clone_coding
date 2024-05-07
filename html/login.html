@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanted OneID</title>
+  <link rel="stylesheet" href="./login.css">
+  <script defer src="./login.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header_1">
+      <img src="./img/wanted_icon.png" alt="" width="60px" height="40px">원티드 통합 로그인
+    </div>
+  </header>
+  <div class="null"></div>
+  <main>
+    <div class="login_page">
+      <h2 class="title">로그인</h2>
+      <div class="card">
+        <div class="card_col">
+          <p>이메일</p>
+          <label for="email">
+            <input type="email" id="email" placeholder="example@wanted.com" style="width: 315px;height: 20px;" class="card_input">
+          </label>
+          <p class="error_message" style="font-size: 10px;"></p>
+        </div>
+        <div class="card_col" >
+          <p>비밀번호</p>
+          <label for="password">
+            <input type="password" id="password" placeholder="비밀번호를 입력해주세요" style="width: 315px;height: 20px;" class="card_input">
+          </label>
+          <p class="error_message" style="font-size: 10px;"></p>
+        </div>
+        <button class="button_login">이메일 로그인</button>
+        <div class="card_find">
+          <a href="#">이메일 찾기</a> | <a href="#">비밀번호 찾기</a> | <a href="#" onClick="location.href='join.html'">회원가입</a>
+        </div>
+        <button class="button_login kakao">
+          <img src="./img/icon-login-kakaotalk-btn.svg" alt="" width="20px" height="20px">
+          카카오로 시작
+        </button>
+        <button class="button_login naver">
+          <img src="./img/icon-login-naver-btn.svg" alt="" width="20px" height="20px">
+          네이버로 시작
+        </button>
+        <button class="button_login facebook">
+          <img src="./img/icon-login-facebook-btn.svg" alt="" width="20px" height="20px">
+          페이스북으로 시작
+        </button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer_container">
+      <p>© Wanted Lab, Inc.</p>
+      <div class="footer_nav">
+        <a href="">이용약관</a>
+        <a href="">개인정보처리방침</a>
+        <select name="language" id="language">
+          <option value="korean">한국어</option>
+          <option value="english">English</option>
+          <option value="japanese">日本語</option>
+        </select>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

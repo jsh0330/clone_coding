@@ -1,0 +1,193 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  /* background-color: aqua; */
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+}
+
+.header_1{
+  /* background-color: blue; */
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+
+main{
+  height: 900px;
+  /* background-color: yellow; */
+}
+
+footer{
+  height: 90px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_page{
+  background-color: whitesmoke;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 740px;
+}
+
+.null{
+  height: 60px;
+}
+
+.title{
+  margin-bottom: 40px;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card{
+  height: 530px;
+  width: 340px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.card > div > p{
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+
+.card_input{
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+input::placeholder {
+  color: gray;
+  font-size: 15px;
+}
+
+.card_col{
+  height: 105px;
+}
+
+.button_login{
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_find{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.card_find > a{
+  text-decoration-line: none;
+  margin: 0 15px;
+  font-size: 15px;
+}
+
+.kakao{
+  background-color: #FEE500;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.naver{
+  background-color: #03C75A;
+  margin-bottom: 20px;
+}
+
+.facebook{
+  background-color: #1876F1;
+  margin-bottom: 0;
+}
+
+.button_login > img{
+  margin-right: 10px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.footer_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.footer_container > p{
+  font-size: 15px;
+  color: grey;
+}
+
+.footer_nav > a{
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+#language{
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input:focus {
+  border-color: blue;
+  outline: none;
+}
+
+.button_login:hover{
+  background-color: darkblue;
+}
+
+.naver:hover{
+  background-color: darkgreen;
+}
+
+.kakao:hover{
+  background-color: darkgoldenrod;
+}
+
+.facebook:hover{
+  background-color: darkblue;
+}
+
+.error_message{
+  color: red;
+  font-size: 10px;
+}

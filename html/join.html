@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanted OneID</title>
+  <link rel="stylesheet" href="./join.css">
+  <script defer src="./join.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header_1">
+      <img src="./img/wanted_icon.png" alt="" width="60px" height="40px">원티드 통합 로그인
+    </div>
+  </header>
+  <main>
+    <div class="main_top">
+      <button class="back_button">
+        <img src="" alt="" width="20px" height="20px">
+        <p class="cancel" onClick="location.href='login.html'">취소하고 돌아가기</p>
+      </button>  
+    </div>
+    <p class="title">회원가입</p>
+    <div class="join">
+      <div class="join_input email_check">
+        <div><label for="email">이메일</label></div>
+        <input type="email" id="email" placeholder="이메일을 입력해주세요.">
+        <button id="check_button" disabled>중복확인</button>
+      </div>
+      <div class="join_input">
+        <div><label for="name">이름</label></div>
+        <input type="text" id="name" placeholder="이름을 입력해주세요.">
+      </div>
+      <div class="join_input">
+        <div><label for="phonenumber">휴대폰 번호</label></div>
+        <select name="country" id="country">
+          <option value="Korea">South Korea +82</option>
+          <option value="United States">United States +1</option>
+          <option value="Japan">Japan +81</option>
+        </select>
+        <div class="join_input input_phone">
+          <input type="text" id="phonenumber" placeholder="(예시) 01012345678">
+          <button id="check_phonenumber">인증번호 받기</button>
+        </div>
+        <input type="text " id="certification" placeholder="인증번호를 입력해주세요.">
+      </div>
+      <div class="join_input">
+        <div><label for="password">비밀번호</label></div>
+        <input type="password" id="password1" placeholder="비밀번호를 입력해주세요.">
+        <p class="password_error" style="font-size: 10px;"></p>
+        <input type="password" id="password2" placeholder="비밀번호를 다시 한번 입력해주세요.">
+        <p class="password_error" style="font-size: 10px;"></p>
+        <div><p class="password_rule">영문 대소문자, 숫자, 특수문자를 3가지 이상으로 조합해 8자 이상 16자 이하로 입력해주세요.</p></div>
+      </div>
+      <div class="checkboxes">
+        <div class="check_all">
+          <input type="checkbox" class="all">
+          <label for="all">전체 동의</label>
+        </div>
+        <hr>
+        <div class="check_under">
+          <div class="check">
+            <input type="checkbox" class="term">
+            <label for="term">만 14세 이상입니다. (필수)</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" class="term">
+            <label for="term">원티드 이용약관 동의 (필수)</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" class="term">
+            <label for="term">원티드 개인정보 수집 및 이용 동의 (필수)</label>
+          </div>
+          <div class="check_sms">
+            <input type="checkbox" class="term">
+            <label for="term">채용 소식, 커리어 콘텐츠, 이벤트 등 원티드</label>
+            <label for="term" class="sds">맞춤 정보 받기</label>
+            <div class="sms">
+              <div><span class="sms_check">&#10003;</span> 이메일</div>
+              <div><span class="sms_check">&#10003;</span> 앱 푸시</div>
+              <div><span class="sms_check">&#10003;</span> 문자 메시지</div>
+            </div>
+          </div>
+          <div class="check_sms">
+            <input type="checkbox" class="term">
+            <label for="term">맞춤 추천 포지션 정보 받기</label>
+            <div class="sms">
+              <div><span class="sms_check">&#10003;</span> 이메일</div>
+              <div><span class="sms_check">&#10003;</span> 앱 푸시</div>
+              <div><span class="sms_check">&#10003;</span> 문자 메시지</div>
+            </div>
+          </div>
+          <button class="join_button">가입하기</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
